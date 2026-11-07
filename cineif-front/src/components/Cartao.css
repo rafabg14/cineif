@@ -1,0 +1,57 @@
+.cartao {
+  background-color: #ffffff;
+  border: 2px solid var(--linha);
+  border-bottom-width: 6px;
+  border-radius: 24px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* .form-conta da v1 */
+.form-conta {
+  width: 460px;
+  max-width: 100%;
+  margin-top: 20px;
+  padding: 25px;
+}
+
+.cartao-mini {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-radius: 16px;
+  border-bottom-width: 4px;
+  color: var(--suave);
+  gap: 0;
+}
+
+.cartao-comentario {
+  padding: 10px 14px;
+  border-radius: 14px;
+  border-bottom-width: 2px;
+  gap: 2px;
+  overflow-wrap: anywhere;
+}
+
+.cartao-titulo {
+  font-size: 22px;
+}
+
+.cartao-mini .cartao-titulo {
+  font-size: 26px;
+}
+
+.cartao-comentario .cartao-titulo {
+  font-size: 16px;
+  color: var(--tinta);
+}
+
+.cor-verde {
+  color: var(--verde-escuro);
+}
+
+.cor-vermelho {
+  color: var(--vermelho);
+}

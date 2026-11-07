@@ -1,0 +1,26 @@
+.filme-topo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  padding-right: 36px;
+}
+
+.filme-topo > div {
+  flex: 1;
+  min-width: 220px;
+}
+
+.filme-topo p {
+  margin: 8px 0 14px 0;
+}
+
+.filme-topo .filme-capa {
+  width: 200px;
+  height: 290px;
+  border-radius: 16px;
+}
+
+.filme-meta {
+  color: var(--suave);
+  margin: 4px 0;
+}

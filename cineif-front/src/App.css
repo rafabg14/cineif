@@ -1,0 +1,26 @@
+.pagina {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 20px 0 0 0;
+}
+
+/* A troca de aba reinicia esta animação (o App muda a "key" do main) */
+.entrada {
+  animation-name: entrada;
+  animation-duration: 0.25s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes entrada {
+  from { opacity: 0; transform: translate(0, 8px); }
+  to   { opacity: 1; transform: translate(0, 0); }
+}
+
+@media (max-width: 720px) {
+  .secao {
+    padding: 24px 16px;
+  }
+  .banner {
+    padding: 32px 20px;
+  }
+}

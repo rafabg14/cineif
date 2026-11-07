@@ -1,0 +1,18 @@
+/* select e select:hover da v1 */
+.selecao {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #f7f7f7;
+  color: var(--tinta);
+  border: 2px solid var(--linha);
+  border-radius: 14px;
+  padding: 10px;
+  width: 260px;
+  max-width: 100%;
+  transition: all 0.3s ease;
+}
+
+.selecao:hover {
+  border: 2px solid var(--vermelho);
+}

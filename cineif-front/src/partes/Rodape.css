@@ -1,0 +1,20 @@
+/* #rodape, #rodape a (aqui o botão de link), .creditos vêm da v1. Fundo claro para combinar com o resto. */
+#rodape {
+  margin-top: 40px;
+  padding: 30px 40px;
+  border-top: 2px solid var(--vermelho);
+  text-align: center;
+}
+
+#rodape h3 {
+  margin: 6px 0 10px 0;
+}
+
+#rodape .btn-link {
+  margin: 0 6px;
+}
+
+.creditos {
+  color: var(--suave);
+  font-size: 13px;
+}

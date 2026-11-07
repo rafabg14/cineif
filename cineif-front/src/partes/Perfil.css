@@ -1,0 +1,41 @@
+.perfil-topo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 22px;
+}
+
+.perfil-dica {
+  color: var(--suave);
+  margin: 0;
+  flex: 1;
+  min-width: 200px;
+}
+
+.perfil-email {
+  margin: 8px 0;
+}
+
+.perfil-numeros {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+/* .engrenagem e @keyframes girar vêm da v1 */
+.engrenagem {
+  font-size: 40px;
+  width: 50px;
+  height: 50px;
+  color: var(--vermelho);
+  animation-name: girar;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes girar {
+  0%   { transform: rotate(0deg); }
+  50%  { transform: rotate(180deg); }
+  100% { transform: rotate(360deg); }
+}

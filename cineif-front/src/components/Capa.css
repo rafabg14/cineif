@@ -1,0 +1,16 @@
+.capa {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.capa-vazia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 14px;
+  background-color: var(--verde);
+  color: #ffffff;
+  font-weight: 900;
+}

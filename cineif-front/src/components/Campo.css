@@ -1,0 +1,37 @@
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.campo-rotulo {
+  color: var(--suave);
+  margin-top: 8px;
+}
+
+.campo-entrada {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--tinta);
+  background-color: #f7f7f7;
+  border: 2px solid var(--linha);
+  border-radius: 14px;
+  padding: 12px 14px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+/* input:focus da v1: borda colorida, brilho e sobe 2px */
+.campo-entrada:focus {
+  outline: none;
+  border: 2px solid var(--verde);
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(57, 153, 58, 0.45);
+  transform: translate(0, -2px);
+}
+
+textarea.campo-entrada {
+  resize: vertical;
+}

@@ -1,0 +1,98 @@
+/* #cabecalho, .logo, #if-destaque e .busca vêm da v1 */
+#cabecalho {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #ffffff;
+  border-bottom: 2px solid var(--linha);
+  box-shadow: 0 4px 12px rgba(43, 40, 35, 0.12);
+}
+
+.topo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 40px 6px 40px;
+}
+
+.logo {
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+#if-destaque {
+  color: var(--vermelho);
+}
+
+.busca {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 520px;
+  max-width: 100%;
+  position: relative;
+}
+
+.busca-campo {
+  flex: 1;
+}
+
+.busca-campo .formulario {
+  flex-direction: row;
+  align-items: center;
+}
+
+.busca-campo .campo-entrada {
+  border-radius: 999px;
+  padding-left: 20px;
+}
+
+.qualidade {
+  position: relative;
+}
+
+.painel {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  z-index: 20;
+  min-width: 200px;
+  margin: 0;
+  padding: 12px 16px;
+  background-color: #ffffff;
+  border: 2px solid var(--linha);
+  border-bottom-width: 5px;
+  border-radius: 18px;
+}
+
+.conta-topo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.abas {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 6px 40px 12px 40px;
+}
+
+@media (max-width: 720px) {
+  .topo {
+    padding: 12px 16px 6px 16px;
+  }
+  .busca {
+    order: 3;
+    width: 100%;
+    margin-left: 0;
+  }
+  .conta-topo {
+    margin-left: auto;
+  }
+  .abas {
+    padding: 6px 16px 12px 16px;
+  }
+}

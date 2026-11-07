@@ -1,0 +1,11 @@
+.pergunta {
+  border: 2px solid var(--linha);
+  border-radius: 16px;
+  padding: 12px 16px;
+  margin-top: 10px;
+}
+
+.pergunta summary {
+  cursor: pointer;
+  font-weight: 900;
+}

@@ -1,0 +1,40 @@
+.fundo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 50;
+  background-color: rgba(43, 40, 35, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.modal {
+  background-color: #ffffff;
+  border-radius: 28px;
+  width: 720px;
+  max-width: 100%;
+  max-height: 90vh;
+  overflow: auto;
+}
+
+.modal-estreito {
+  width: 440px;
+}
+
+.modal-corpo {
+  position: relative;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.modal-fechar {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}

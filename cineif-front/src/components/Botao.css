@@ -1,0 +1,144 @@
+/* .btn, .btn:hover, .btn:active, .btn-login, .btn-assistir e .btn-salvar vêm da v1.
+   Mudou: cores do IFBA e a borda grossa embaixo (o "degrau" do estilo Duolingo). */
+.btn {
+  font-family: inherit;
+  font-weight: 900;
+  background-color: var(--verde);
+  color: #ffffff;
+  border: none;
+  border-bottom: 5px solid var(--verde-escuro);
+  padding: 10px 20px;
+  border-radius: 14px;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  filter: brightness(1.08);
+  transform: scale(1.08);
+  box-shadow: 0 0 14px rgba(57, 153, 58, 0.7);
+}
+
+.btn:active {
+  transform: translate(0, 3px) scale(0.97);
+  border-bottom-width: 2px;
+}
+
+.btn-login {
+  background-color: #ffffff;
+  color: var(--vermelho);
+  border: 2px solid var(--vermelho);
+  border-bottom-width: 5px;
+  padding: 8px 20px;
+}
+
+.btn-login:hover {
+  box-shadow: 0 0 14px rgba(200, 21, 23, 0.5);
+}
+
+.btn-assistir {
+  font-size: 18px;
+  padding: 14px 28px;
+}
+
+.btn-salvar {
+  margin-top: 18px;
+}
+
+/* Variações novas da v2 */
+.btn-aba {
+  background-color: #ffffff;
+  color: var(--suave);
+  border: 2px solid var(--linha);
+  border-bottom-width: 4px;
+  padding: 8px 16px;
+  white-space: nowrap;
+}
+
+.btn-aba:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.btn-aba.ativo {
+  background-color: var(--verde-claro);
+  border-color: var(--verde);
+  color: var(--verde-escuro);
+}
+
+.btn-icone {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  font-size: 20px;
+  line-height: 1;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: var(--vermelho);
+  border: 2px solid var(--linha);
+}
+
+.btn-icone.ativo {
+  background-color: var(--vermelho);
+  border-color: var(--vermelho-escuro);
+  color: #ffffff;
+}
+
+.btn-link,
+.btn-logo,
+.btn-bloco,
+.btn-avatar {
+  background: none;
+  color: inherit;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+.btn-link:hover,
+.btn-logo:hover,
+.btn-bloco:hover,
+.btn-avatar:hover,
+.btn-link:active,
+.btn-logo:active,
+.btn-bloco:active,
+.btn-avatar:active {
+  transform: none;
+  box-shadow: none;
+  filter: none;
+}
+
+.btn-link {
+  color: var(--suave);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.btn-link:hover {
+  color: var(--vermelho);
+  text-decoration: underline;
+}
+
+.btn-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 30px;
+  color: var(--verde);
+}
+
+.btn-bloco {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border-radius: 12px;
+  font-size: inherit;
+}
+
+.btn-avatar {
+  display: inline-flex;
+  border-radius: 50%;
+}

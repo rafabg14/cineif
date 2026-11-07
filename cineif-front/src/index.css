@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap");
+
+/* Cores do IFBA guardadas em variáveis: mudou aqui, mudou no site todo */
+:root {
+  --verde: #39993a;
+  --verde-escuro: #2a7a2c;
+  --verde-claro: #e9f6e9;
+  --vermelho: #c81517;
+  --vermelho-escuro: #9a0f11;
+  --tinta: #2b2823;
+  --suave: #6b6760;
+  --linha: #e5e5e5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* body da v1: mesmo conjunto (fundo, cor, fonte, margin e padding), com o Arial como reserva da Nunito */
+body {
+  background-color: #ffffff;
+  color: var(--tinta);
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 900;
+  line-height: 1.15;
+}
+
+.so-leitor {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}

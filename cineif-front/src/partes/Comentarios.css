@@ -1,0 +1,12 @@
+.comentarios-lista {
+  list-style: none;
+  margin: 16px 0 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.comentarios-vazio {
+  color: var(--suave);
+}

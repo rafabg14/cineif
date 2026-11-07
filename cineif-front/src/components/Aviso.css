@@ -1,0 +1,17 @@
+.aviso {
+  margin: 4px 0 0 0;
+  font-weight: 800;
+}
+
+.aviso-ok {
+  color: var(--verde-escuro);
+}
+
+.aviso-erro {
+  color: var(--vermelho);
+}
+
+.aviso-info {
+  color: var(--suave);
+  font-size: 15px;
+}
